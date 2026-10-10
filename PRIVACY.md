@@ -1,6 +1,6 @@
 # Privacy Policy for LingoHUD
 
-**Effective date:** 5 October 2026 (applies to LingoHUD 1.1 and later)
+**Effective date:** applies to LingoHUD 1.2 and later (date set at release)
 **Publisher:** Scrapline Studio
 
 LingoHUD is a Windows desktop application. It has no account system, no servers of ours, no telemetry and no analytics. This page explains exactly what stays on your computer and what can leave it.
@@ -18,11 +18,10 @@ LingoHUD is a Windows desktop application. It has no account system, no servers 
 
 | Feature | What is sent | Sent to |
 |---|---|---|
-| Google Translate engine (optional) | The recognized or typed **text** to translate. Never the screenshot or audio. | Google |
 | Read-aloud and "speak it" output, with the online voice (the default voice; used only when you ask for speech) | The text LingoHUD speaks | Microsoft Edge online voice service |
-| Language or model downloads | A normal download request | Hugging Face (or the source shown in the app) |
+| Optional model downloads (only when you click **Download** in the model catalog) | A normal download request. No screen content, audio or translated text is sent. | Hugging Face (or the source shown in the app) |
 
-Switching to a local translation engine and to Windows system voices keeps translation and speech fully on your computer.
+All translation in LingoHUD runs on your computer. Switching to Windows system voices keeps speech fully on your computer as well.
 
 The Steam version of LingoHUD does **not** offer cloud speech recognition or cloud AI providers that use your own API key.
 
